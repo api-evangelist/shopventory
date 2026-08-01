@@ -1,7 +1,18 @@
 aid: shopventory
 name: Shopventory
-description: Shopventory is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Thrive by Shopventory is inventory management, catalog control, and reporting
+  software for small and medium-sized retail, restaurant, and hospitality
+  businesses. Founded in 2012 out of a San Diego boutique and a graduate of the
+  Techstars Boulder accelerator, Shopventory syncs stock, sales, and cost-of-goods
+  data across multiple locations and sales channels, and integrates with Square,
+  Shopify, Clover, BigCommerce, WooCommerce, and QuickBooks Online. The platform
+  offers barcode scanning, purchase-order automation, demand forecasting, bundles
+  and component-level tracking, price-tag printing, and advanced custom reporting.
+  The company operates as Thrive by Shopventory (thrivemetrics.com). Its former
+  public developer API (apidocs.shopventory.com) is no longer resolvable, so this
+  profile captures the company's live web, support, and integration surface plus
+  probed domain-security posture rather than a public API specification.
 url: https://raw.githubusercontent.com/api-evangelist/shopventory/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://shopventory.com/wp-content/uploads/2021/06/thrive-by-shopventory-logo.png
 tags:
 - Company
+- Inventory Management
+- Point of Sale
+- Retail
+- eCommerce
+- Reporting
+- Small Business
+- Techstars
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,36 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/shopventory-domain-security.yml
 - type: Website
   url: https://shopventory.com/
+- type: About
+  url: https://shopventory.com/about-us/
+- type: Pricing
+  url: https://shopventory.com/pricing/
+- type: SignUp
+  url: https://shopventory.com/free-trial
+- type: Login
+  url: https://cloud.shopventory.com/#/account/login
+- type: Support
+  url: https://shopventory.com/support/
+- type: HelpCenter
+  url: https://shopventory.com/faqs/
+- type: Blog
+  url: https://shopventory.com/blog-posts/
+- type: BlogRSS
+  url: https://shopventory.com/feed/
+- type: Integrations
+  url: https://shopventory.com/integrations/
+- type: TermsOfService
+  url: https://shopventory.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://shopventory.com/privacy-policy/
+- type: LLMsTxt
+  url: llms/shopventory-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
