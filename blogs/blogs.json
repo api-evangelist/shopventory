@@ -2,6 +2,13 @@
   "repo": "shopventory",
   "feeds": [
     {
+      "source": "https://shopventory.com/feed/",
+      "feed_url": "https://shopventory.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://shopventory.com/faqs/",
       "feed_url": "https://shopventory.com/feed/",
       "title": "",
@@ -16,6 +23,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-07-25T15:00:33Z"
+  "post_count": 12,
+  "fetched": "2026-08-01T15:49:00Z"
 }
