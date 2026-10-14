@@ -1,16 +1,37 @@
 generated: '2026-10-12'
-method: none
+method: searched
 source:
 - https://zapier.com/apps/shopventory/integrations
 - https://n8n.io/integrations/shopventory/
 - https://composio.dev/toolkits/shopventory
 - https://monid.ai/tools/shopventory
 checked:
+- clover/integrations/clover-integration-edges.yml
 - https://composio.dev/toolkits/shopventory
 - https://monid.ai/tools/shopventory
 - https://n8n.io/integrations/shopventory/
 - https://zapier.com/apps/shopventory/integrations
 summary: null
 marketplace_apps: []
-edges: []
+edges:
+- partner_name: Clover (own)
+  partner: clover
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.clover.com/appmarket/apps/68DZGFF3KQDK2
+  mirror_of: clover/integrations/clover-integration-edges.yml
+  apps:
+  - Thrive Stock Counts
+  - Thrive Inventory Management by Shopventory
+  listing_count: 2
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: QUICK_SERVICE_RESTAURANT
+  badges:
+  - Editor's Pick
 templates: []
